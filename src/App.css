@@ -1,0 +1,291 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 1rem;
+  line-height: 1.6;
+  background-color: #fff;
+  color: #333;
+}
+
+ul {
+  list-style: none;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.7rem 2rem;
+  z-index: 1;
+  width: 100%;
+  opacity: 0.9;
+  margin-bottom: 1rem;
+  background-color: coral;
+}
+
+.navbar ul {
+  display: flex;
+  margin-right: 8rem;
+}
+
+.navbar a {
+  color: black;
+  padding: 0.45rem;
+  margin: 0 0.25rem;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  color: var(--light-color);
+  text-decoration: none;
+}
+
+.navbar .welcome span {
+  margin-right: 0.6rem;
+}
+
+.logo_div {
+  margin-left: 8rem;
+}
+
+.logo {
+  margin-top: 1rem;
+}
+
+.logo_text1 {
+  color: white;
+  margin-top: -3.2rem;
+  margin-left: -0.45rem;
+  transform: scale(0.8, 0.8);
+}
+
+.logo_text2 {
+  margin-left: 3rem;
+  margin-top: -3.2rem;
+  transform: scale(0.8, 0.8);
+  font-weight: 350;
+}
+
+.button_blue {
+  background-color: #458FF6;
+  color: white;
+  border-radius: 2.5rem;
+  padding: 0.5rem 1rem;
+  border-style: solid;
+  border-color: #458FF6;
+  width: 10rem;
+}
+
+.button_white {
+  background-color: white ;
+  color: #458FF6;
+  border-radius: 2.5rem;
+  padding: 0.5rem 1rem;
+  border-style: solid;
+  border-color: #458FF6;
+  width: 10rem;
+}
+
+.space1 {
+  margin-top: 10rem;
+}
+
+.header_h1 {
+  margin-bottom: 2rem;
+}
+
+.header_p {
+  margin-bottom: 3.5rem;
+}
+
+.ly {
+  margin-bottom: 28rem;
+}
+
+.section1_h2 {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+.section1_line {
+  height: 1.5px;
+  background-color:black;
+  width: 3.2rem;
+  margin-left: 58rem;
+}
+
+.section1_p {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+.section1_img {
+  position: absolute;
+  margin-top: -12rem;
+  transform: scale(1.1,1);
+}
+
+.section1_container {
+  margin-top: 7rem;
+  z-index: 1;
+}
+
+.search {
+  transform: scale(.18,.8);
+  margin-left: -11rem;
+  margin-top: 2.7rem;
+  margin-bottom: 1rem;
+}
+
+.drug {
+  transform: scale(.12, 1);
+  margin-left: -12rem;
+  margin-top: 3.2rem;
+  margin-bottom: 1rem;
+}
+
+.form {
+  transform: scale(.15,1);
+  margin-left: -12rem;
+  margin-top: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.section_card {
+  width: 19.3rem;
+  height: 20rem;
+  border-radius: 1rem !important;
+  box-shadow: 3px 12px rgba(150, 150, 150, 0.219);
+}
+
+.section1_col {
+  margin-right: -2rem;
+  margin-bottom: 3rem;
+}
+
+.section1_button {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+.section2 {
+  margin-top: .5rem;
+  margin-bottom: 18rem;
+}
+
+.section2_img {
+  width: 36rem;
+}
+
+.section2_col1 {
+  margin-right: -6rem;
+}
+
+.section2_col2 {
+  margin-top: 3rem;
+}
+
+.section2_p {
+  margin-bottom: 2.5rem;
+}
+
+
+.section3_line {
+  height: 1px;
+  background-color:black;
+  width: 3.2rem;
+}
+
+.section3_img {
+  width: 36rem;
+}
+
+.section3_row {
+  padding-right: -5rem;
+}
+
+.section3_col1 {
+  margin-top: 2rem;
+}
+
+.section4_card {
+  margin-top: 15rem;
+  margin-bottom: 25rem;
+  margin-left: 22rem;
+  width: 70rem;
+  height: 25rem;
+  border-style: solid;
+  border-color: #458FF6;
+  border-radius: 2rem;
+  background-color: #458FF6;
+  color: white;
+}
+
+.section4_div1 {
+  justify-content: center;
+}
+
+.section4_h3 {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  margin-top: 3rem;
+}
+
+.section4_line {
+  height: 1px;
+  background-color:black;
+  width: 3.2rem;
+  justify-content: center;
+ margin-left: 33rem;
+}
+
+.section4_p {
+  margin-top: 2rem;
+  font-size: 17px;
+}
+
+.section4_img {
+  margin-left: 10rem;
+}
+
+.section4_col2 {
+  margin-top: 4rem;
+  margin-left: 2.6rem;
+  margin-right: -2.6rem;
+}
+
+#carousel_1 .carousel-control-next,
+#carousel_1 .carousel-control-prev {
+  width: 2.7rem;
+  height: 2.7rem;
+  background-color: white;
+  border-radius: 50%;
+  opacity: .8;
+  /* bottom: .1rem !important; */
+  top: 18rem;
+  z-index: 10;
+  border-style: solid;
+  color: black ;
+}
+
+.carousel-indicators {
+  top: 18rem;
+  
+}
+
+.indicator {
+  width: 10px !important;
+  height: 10px !important;
+  background-color: green !important;
+  border-radius: 50%;
+}
