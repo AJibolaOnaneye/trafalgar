@@ -13,7 +13,7 @@ const NextButton = (props) => {
         data-slide="next"
       >
         <span className="carousel_arrow" aria-hidden="true">
-          <i class="fas fa-angle-right rightangle carousel-control-next-icon" />
+          <i class="fas fa-arrow-right rightangle carousel-control-next-icon" />
         </span>
         <span className="sr-only">{props.next}</span>
       </a>
